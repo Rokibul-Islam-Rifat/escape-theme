@@ -1,21 +1,108 @@
+/*  Extra small devices (portrait phones, less than 320px) */
+
+@media (max-width: 320px) {
+    /* menu part start */
+    .navbar-light .navbar-nav .nav-link {
+        text-align: right;
+        padding-bottom: 10px !important;
+    }
+    .header-content {
+        padding-top: 30px;
+        color: #ffffff;
+    }
+    .header-content h3 {
+        font-size: 15px;
+    }
+    .header-content h2 {
+        font-size: 26px;
+    }
+    .btn-custom {
+        font-size: 15px;
+        padding: 8px 21px;
+        margin-top: 30px;
+    }
+    /* menu part end */
+}
+
+
 /*  Extra small devices (portrait phones, less than 576px) */
 
-@media (max-width: 575.98px) {
-    ...
+@media (min-width: 321px) and (max-width: 575.98px) {
+    /* menu part start */
+    .navbar-light .navbar-nav .nav-link {
+        text-align: right;
+        padding-bottom: 10px !important;
+    }
+    .header-content {
+        padding-top: 40px;
+        color: #ffffff;
+    }
+    .header-content h3 {
+        font-size: 20px;
+    }
+    .header-content h2 {
+        font-size: 40px;
+    }
+    .btn-custom {
+        font-size: 20px;
+        padding: 12px 25px;
+        margin-top: 30px;
+    }
+    /* menu part end */
 }
 
 
 /*  Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-    ...
+    /* menu part start */
+    .navbar-light .navbar-nav .nav-link {
+        text-align: right;
+        padding-bottom: 10px !important;
+    }
+    .header-content {
+        padding-top: 40px;
+        color: #ffffff;
+    }
+    .header-content h3 {
+        font-size: 20px;
+    }
+    .header-content h2 {
+        font-size: 40px;
+    }
+    .btn-custom {
+        font-size: 20px;
+        padding: 12px 25px;
+        margin-top: 30px;
+    }
+    /* menu part end */
 }
 
 
 /*  Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-    ...
+    /* menu part start */
+    .navbar-light .navbar-nav .nav-link {
+        text-align: right;
+        padding-bottom: 10px !important;
+    }
+    .header-content {
+        padding-top: 40px;
+        color: #ffffff;
+    }
+    .header-content h3 {
+        font-size: 25px;
+    }
+    .header-content h2 {
+        font-size: 50px;
+    }
+    .btn-custom {
+        font-size: 20px;
+        padding: 12px 25px;
+        margin-top: 30px;
+    }
+    /* menu part end */
 }
 
 
