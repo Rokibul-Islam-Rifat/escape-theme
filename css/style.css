@@ -11,6 +11,9 @@ html {
     scroll-behavior: smooth;
 }
 
+
+/* header part start */
+
 .header {
     background: url(../img/header-banner.jpg);
     background-repeat: no-repeat;
@@ -57,3 +60,69 @@ html {
 .btn-custom:hover {
     color: #ffffff;
 }
+
+
+/* header part end */
+
+
+/* development part start */
+
+.development,
+.development-2 {
+    padding: 100px 0;
+}
+
+.content h2 {
+    font-size: 60px;
+    font-weight: 300;
+    color: #222;
+}
+
+.content p {
+    font-size: 19px;
+    width: 97%;
+    color: #777777;
+    line-height: 30px;
+}
+
+.dev-image img {}
+
+.development-2 {
+    background: #fafafa;
+}
+
+
+/* development part end */
+
+
+/* featured part start */
+
+.featured {
+    padding: 100px 0;
+}
+
+.icon {
+    background-color: #222222;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: #ffffff;
+    padding: 5px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.icon-text h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #222222;
+    text-transform: capitalize;
+}
+
+.icon-text p {
+    color: #777777;
+    font-size: 18px;
+}
+
+
+/* featured part end */

@@ -19,9 +19,30 @@
     .btn-custom {
         font-size: 15px;
         padding: 8px 21px;
-        margin-top: 30px;
+        margin-top: 55px;
     }
     /* menu part end */
+    /* development part start */
+    .development,
+    .development-2 {
+        padding: 30px 0;
+    }
+    .content h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+    .content p {
+        padding-top: 10px;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .dev-image img {
+        width: 40%;
+        padding-top: 0;
+        margin-left: 80px;
+    }
+    /* development part end */
 }
 
 
@@ -49,6 +70,28 @@
         margin-top: 30px;
     }
     /* menu part end */
+    /* development part start */
+    .development,
+    .development-2 {
+        padding: 30px 0;
+    }
+    .content h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+    .content p {
+        padding-top: 10px;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .dev-image img {
+        width: 40%;
+        padding-top: 0;
+        margin-left: 140px;
+        padding-bottom: 20px;
+    }
+    /* development part end */
 }
 
 
@@ -61,7 +104,7 @@
         padding-bottom: 10px !important;
     }
     .header-content {
-        padding-top: 40px;
+        padding-top: 50px;
         color: #ffffff;
     }
     .header-content h3 {
@@ -76,6 +119,28 @@
         margin-top: 30px;
     }
     /* menu part end */
+    /* development part start */
+    .development,
+    .development-2 {
+        padding: 50px 0;
+    }
+    .content h2 {
+        font-size: 50px;
+        text-align: center;
+    }
+    .content p {
+        padding-top: 10px;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .dev-image img {
+        width: 40%;
+        padding-top: 0;
+        margin-left: 140px;
+        padding-bottom: 20px;
+    }
+    /* development part end */
 }
 
 
@@ -100,9 +165,23 @@
     .btn-custom {
         font-size: 20px;
         padding: 12px 25px;
-        margin-top: 30px;
+        margin-top: 18px;
     }
     /* menu part end */
+    /* development part start */
+    .development,
+    .development-2 {
+        padding: 50px 0;
+    }
+    .content h2 {
+        font-size: 50px;
+    }
+    .content p {
+        padding-top: 15px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    /* development part end */
 }
 
 
