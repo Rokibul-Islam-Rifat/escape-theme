@@ -107,27 +107,68 @@
         padding: 19px;
     }
     /* brand part end */
+    /* team part start */
+    .team-part {
+        padding: 30px 0;
+    }
+    .team-title h2 {
+        font-size: 35px;
+    }
+    .team-title p {
+        font-size: 12px;
+        color: #777777;
+    }
+    .team-img img {
+        width: 180px;
+        height: 180px;
+    }
+    .team-bottom p {
+        font-size: 18px;
+        padding: 0 30px;
+        padding-top: 20px;
+    }
+    /* team part end */
+    /* contact part start */
+    .contact {
+        padding: 30px 0 0 0;
+    }
+    .r-style {
+        margin-left: 30px;
+    }
+    .left-part {
+        text-align: center;
+    }
+    .form {
+        padding-top: 35px;
+    }
+    /* contact part end */
 }
 
 
-/*  Small devices (landscape phones, 576px and up) */
+}
 
+/*  Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
     /* menu part start */
+    
     .navbar-light .navbar-nav .nav-link {
         text-align: right;
         padding-bottom: 10px !important;
     }
+    
     .header-content {
         padding-top: 50px;
         color: #ffffff;
     }
+    
     .header-content h3 {
         font-size: 20px;
     }
+    
     .header-content h2 {
         font-size: 40px;
     }
+    
     .btn-custom {
         font-size: 20px;
         padding: 12px 25px;
@@ -135,20 +176,24 @@
     }
     /* menu part end */
     /* development part start */
+    
     .development,
     .development-2 {
         padding: 50px 0;
     }
+    
     .content h2 {
         font-size: 50px;
         text-align: center;
     }
+    
     .content p {
         padding-top: 10px;
         font-size: 18px;
         line-height: 25px;
         text-align: center;
     }
+    
     .dev-image img {
         width: 40%;
         padding-top: 0;
@@ -157,72 +202,110 @@
     }
     /* development part end */
     /* featured part start */
+    
     .icon {
         margin-left: 110px;
     }
+    
     .icon-text h3 {
         text-align: center;
     }
+    
     .icon-text p {
         text-align: center;
     }
     /* featured part end */
     /* client part start */
+    
     .client-part {
         padding: 25px 0;
     }
+    
     .client-img {
         margin-left: 140px;
     }
+    
     .client-img img {
         width: 190px;
         height: 190px;
     }
+    
     .client-content,
     .client-content-2 {
         padding: 28px;
     }
+    
     .r-class {
         margin-right: 150px;
         padding-top: 40px;
     }
+    
     .client-content::before {
         content: none;
     }
+    
     .client-content-2::after {
         content: none;
     }
     /* client part end */
     /* brand part start */
+    
     .brand {
         padding: 30px 0;
     }
+    
     .brand-img {
         text-align: center;
         padding: 19px;
     }
     /* brand part end */
+    /* team part start */
+    
+    .team-part {
+        padding: 30px 0;
+    }
+    
+    .team-bottom p {
+        font-size: 18px;
+        padding: 0 30px;
+        padding-top: 20px;
+    }
+    /* team part end */
+    /* contact part start */
+    
+    .contact {
+        padding: 30px 0 0 0;
+        text-align: center;
+    }
+    
+    .form {
+        padding-top: 35px;
+    }
+    /* contact part end */
 }
 
-
 /*  Medium devices (tablets, 768px and up) */
-
 @media (min-width: 768px) and (max-width: 991.98px) {
     /* menu part start */
+    
     .navbar-light .navbar-nav .nav-link {
         text-align: right;
         padding-bottom: 10px !important;
     }
+    
     .header-content {
         padding-top: 40px;
         color: #ffffff;
     }
+    
     .header-content h3 {
         font-size: 25px;
     }
+    
     .header-content h2 {
         font-size: 50px;
     }
+    
     .btn-custom {
         font-size: 20px;
         padding: 12px 25px;
@@ -230,13 +313,16 @@
     }
     /* menu part end */
     /* development part start */
+    
     .development,
     .development-2 {
         padding: 50px 0;
     }
+    
     .content h2 {
         font-size: 50px;
     }
+    
     .content p {
         padding-top: 15px;
         font-size: 18px;
@@ -244,50 +330,66 @@
     }
     /* development part end */
     /* featured part start */
+    
     .icon {
         margin-left: 140px;
     }
+    
     .icon-text h3 {
         text-align: center;
     }
+    
     .icon-text p {
         text-align: center;
     }
     /* featured part end */
     /* client part start */
+    
     .client-part {
         padding: 25px 0;
     }
+    
     .client-img {
         margin-top: 70px;
     }
+    
     .client-img img {
         width: 190px;
         height: 190px;
     }
+    
     .client-content,
     .client-content-2 {
         padding: 20px;
     }
+    
     .client-content::before {
         top: 155px;
     }
+    
     .client-content-2::after {
         top: 155px;
     }
     /* client part end */
+    /* contact part start */
+    
+    .contact {
+        padding: 30px 0 0 0;
+        text-align: center;
+    }
+    
+    .form {
+        padding-top: 35px;
+    }
+    /* contact part end */
 }
 
-
 /* Large devices (desktops, 992px and up) */
-
 @media (min-width: 992px) and (max-width: 1199.98px) {
     ...
 }
 
-
 /* Extra large devices (large desktops, 1200px and up) */
-
 @media (min-width: 1200px) {
     ...
 }
