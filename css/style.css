@@ -297,13 +297,8 @@ html {
 
 /* it's for bottom item */
 
-.bottom-icon i {
-    font-size: 25px;
-    color: #ffffff;
-}
-
-.bottom-content p {
-    font-size: 18px;
+.content-style ul li {
+    font-size: 19px;
     color: #ffffff;
 }
 
@@ -329,6 +324,11 @@ html {
 
 
 /* it's for footer bottom  */
+
+.hr-style {
+    border: none;
+    border-bottom: 1px solid#ffffff;
+}
 
 .footer-bottom {
     font-size: 18px;
